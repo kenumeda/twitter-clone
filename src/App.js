@@ -1,25 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./pages/Home";
+import SideBar from "./pages/SideBar";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { Col, Layout, Row } from "antd";
+import Trending from "./pages/Trending";
+const { Sider, Content } = Layout;
+
+const contentStyle = {
+  lineHeight: "120px",
+  color: "#fff",
+  width: "600px",
+};
+
+const siderStyle = {
+  lineHeight: "120px",
+  color: "#fff",
+  backgroundColor: "#ffffff",
+  width: "275px",
+};
+const TrendingStyle = {
+  lineHeight: "120px",
+  color: "#fff",
+  backgroundColor: "#ffffff",
+};
+
+const App = () => (
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+    }}
+  >
+    <Row>
+      <Col>
+        {" "}
+        <Sider style={siderStyle}>
+          <SideBar />
+        </Sider>
+      </Col>
+      <Col>
+        {" "}
+        <Content style={contentStyle}>
+          <Home />
+        </Content>
+      </Col>
+      <Col>
+        {" "}
+        <Sider style={TrendingStyle}>
+          <Trending />
+        </Sider>
+      </Col>
+    </Row>
+  </div>
+);
 
 export default App;
