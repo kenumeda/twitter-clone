@@ -1,57 +1,31 @@
 import React from "react";
-import Home from "./pages/Home";
-import SideBar from "./pages/SideBar";
 
-import { Col, Layout, Row } from "antd";
-import Trending from "./pages/Trending";
-const { Sider, Content } = Layout;
+import Feed from "./Pages/Feed";
+import LeftBar from "./Pages/LeftBar";
+import RightBar from "./Pages/RightBar";
+import "./App.css";
+import { Col, Row } from "antd";
 
-const contentStyle = {
-  lineHeight: "120px",
-  color: "#fff",
-  width: "600px",
+const App = () => {
+  const colStyle = { flex: 0 };
+
+  return (
+    <>
+      <Row justify="center" gutter={[8, 8]}>
+        <Col sm={10} md={7} lg={7} className="left-bar-col">
+          <LeftBar />
+        </Col>
+
+        <Col sm={14} md={10} lg={10}>
+          <Feed />
+        </Col>
+
+        <Col sm={10} md={7} lg={7} className="right-bar-col">
+          <RightBar />
+        </Col>
+      </Row>
+    </>
+  );
 };
-
-const siderStyle = {
-  lineHeight: "120px",
-  color: "#fff",
-  backgroundColor: "#ffffff",
-  width: "275px",
-};
-const TrendingStyle = {
-  lineHeight: "120px",
-  color: "#fff",
-  backgroundColor: "#ffffff",
-};
-
-const App = () => (
-  <div
-    style={{
-      display: "flex",
-      justifyContent: "center",
-    }}
-  >
-    <Row>
-      <Col>
-        {" "}
-        <Sider style={siderStyle}>
-          <SideBar />
-        </Sider>
-      </Col>
-      <Col>
-        {" "}
-        <Content style={contentStyle}>
-          <Home />
-        </Content>
-      </Col>
-      <Col>
-        {" "}
-        <Sider style={TrendingStyle}>
-          <Trending />
-        </Sider>
-      </Col>
-    </Row>
-  </div>
-);
 
 export default App;
