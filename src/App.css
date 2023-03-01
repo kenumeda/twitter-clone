@@ -1,0 +1,15 @@
+body {
+  --twitter-color: #1da1f2;
+  --twitter-background: #f5f8fa;
+}
+
+@media (max-width: 576px) {
+  .left-bar-col {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .right-bar-col {
+    display: none;
+  }
+}
