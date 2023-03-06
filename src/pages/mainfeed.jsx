@@ -53,7 +53,7 @@ const Mainfeed = () => {
               type="text"
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
-              placeholder="What's happening ?"
+              placeholder="What's happening Saul?"
               bordered={false}
             />
             <Button
