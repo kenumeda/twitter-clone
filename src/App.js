@@ -9,7 +9,7 @@ import RightBar from "./Pages/rightbar";
 const App = () => {
   return (
     <>
-      <Row gutter={[8, 8]}>
+      <Row justify="center" gutter={[8, 8]}>
         <Col sm={10} md={7} lg={5} className="left-bar-col">
           <LeftBar />
         </Col>
@@ -20,7 +20,7 @@ const App = () => {
           </div>
         </Col>
 
-        <Col sm={10} md={7} lg={7} className="right-bar-col">
+        <Col sm={10} md={7} lg={5} className="right-bar-col">
           <RightBar />
         </Col>
       </Row>
