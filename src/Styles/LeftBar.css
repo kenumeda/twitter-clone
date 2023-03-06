@@ -1,0 +1,18 @@
+.leftbar .ant-list-header {
+  padding: 12px 40px;
+  border-block-end: none;
+}
+
+/* UserButton */
+.user {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.userbutton {
+  align-items: center;
+  padding: 12px;
+  height: 65px;
+  border-radius: 9999px;
+}
