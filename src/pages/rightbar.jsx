@@ -7,22 +7,20 @@ const { Title } = Typography;
 
 const tweetData = [
   {
-    title: "Elon Musk",
-    tweet: "This is a the best water bottle ever!",
+    title: "Breakfast king critques",
+    tweet: "This is the best water ever!",
   },
   {
-    title: "Champions League",
-    tweet: "This is a tweet",
+    title: "Nancho and Papa Varga business flourish",
+    tweet: "Couldn't get better without my son",
   },
   {
     title: "Better Call Saul",
     tweet: "Is Will Oakely the one?",
   },
   {
-    Trending: "",
-
     title: "Trending in Albuquerque",
-    tweet: "New !",
+    tweet: "New taco store opened by Lalo!",
   },
 ];
 
