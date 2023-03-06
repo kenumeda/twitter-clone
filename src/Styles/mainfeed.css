@@ -1,0 +1,34 @@
+.feed .ant-card-head {
+  border-bottom: none;
+  top: 0;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+}
+
+.feed,
+.card {
+  border-radius: 0;
+}
+
+.feed {
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweetbutton {
+  background-color: var(--twitter-color);
+  border-radius: 9999px;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
