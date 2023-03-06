@@ -1,0 +1,71 @@
+[
+  {
+    "user": {
+      "nickname": "elonmusk",
+      "name": "Elon Musk",
+      "avatar": "https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_400x400.jpg",
+      "verified": true,
+      "locked": false
+    },
+    "display": "default",
+    "text": "Just landed on Mars! Why don't you come here?",
+    "avatar": "https://mars.nasa.gov/system/news_items/main_images/8552_Web.jpg",
+    "date": "3:32 PM · Feb 14, 2023",
+    "app": "Twitter for Android",
+    "retweets": 1000000,
+    "quotedTweets": 5000,
+    "likes": 20000000,
+    "image": " https://assets.entrepreneur.com/content/3x2/2000/1618933335-elon-musk.jpg"
+  },
+  {
+    "user": {
+      "nickname": "bettercallsaul",
+      "name": "James McGill ",
+      "avatar": "https://pbs.twimg.com/profile_images/378800000470304954/8eadbe17cfe4a3ec5771089778a09113_400x400.jpeg",
+      "verified": true,
+      "locked": false
+    },
+    "display": "default",
+    "text": "Don't drink and drive, but if you do call me.",
+    "image": "",
+    "date": "8:15 AM · Feb 23, 2023",
+    "app": "Twitter for iPhone",
+    "retweets": 15000,
+    "quotedTweets": 1000,
+    "likes": 50000
+  },
+  {
+    "user": {
+      "nickname": "LosPollosHermanos",
+      "name": "Gustavo Fring",
+      "avatar": "https://i.pinimg.com/originals/91/a7/eb/91a7eb8e343f85bc73dc19e9bcd1bdd3.jpg",
+      "verified": true,
+      "locked": false
+    },
+    "display": "default",
+    "text": "Each and every day, we serve our customers exceptional food with impeccable service and take pride in everything that we do! ",
+    "image": "",
+    "date": "10:45 AM · Feb 22, 2023",
+    "app": "Samsung t245g Flip Phone",
+    "retweets": 5000,
+    "quotedTweets": 500,
+    "likes": 10000
+  },
+  {
+    "user": {
+      "nickname": "Heisenberg",
+      "name": "Walter White",
+      "avatar": "https://cdn.costumewall.com/wp-content/uploads/2015/09/walter-white-tn.jpg",
+      "verified": true,
+      "locked": false
+    },
+    "display": "default",
+    "text": "Say my name",
+    "image": "",
+    "date": "1:30 PM · Feb 21, 2023",
+    "app": "Twitter for iPad",
+    "retweets": 2,
+    "quotedTweets": 1,
+    "likes": 0
+  }
+]
