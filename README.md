@@ -1,7 +1,7 @@
 <div align="center">
 <h1> Twitter Clone</h1>
 
-![alt text](/public/netflix.png)
+![alt text](./public/Twitterscreenshot.png)
 
 </div>
 
