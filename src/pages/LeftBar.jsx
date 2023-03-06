@@ -87,7 +87,6 @@ const LeftBar = () => {
                 style={{ display: "flex", alignContent: "center" }}
               >
                 {item.avatar}
-
                 {item.title}
               </Button>
             </List.Item>

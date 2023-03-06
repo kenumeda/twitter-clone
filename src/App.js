@@ -1,26 +1,26 @@
 import React from "react";
 
-import Feed from "./Pages/Feed";
-import LeftBar from "./Pages/LeftBar";
-import RightBar from "./Pages/RightBar";
 import "./App.css";
 import { Col, Row } from "antd";
+import LeftBar from "./Pages/leftbar";
+import MainFeed from "./Pages/mainfeed";
+import RightBar from "./Pages/rightbar";
 
 const App = () => {
-  const colStyle = { flex: 0 };
-
   return (
     <>
       <Row justify="center" gutter={[8, 8]}>
-        <Col sm={10} md={7} lg={7} className="left-bar-col">
+        <Col sm={10} md={7} lg={5} className="left-bar-col">
           <LeftBar />
         </Col>
 
-        <Col sm={14} md={10} lg={10}>
-          <Feed />
+        <Col sm={14} md={10} lg={10} className="main-feed-col">
+          <div className="main-feed-container">
+            <MainFeed />
+          </div>
         </Col>
 
-        <Col sm={10} md={7} lg={7} className="right-bar-col">
+        <Col sm={10} md={7} lg={5} className="right-bar-col">
           <RightBar />
         </Col>
       </Row>
