@@ -3,6 +3,18 @@ body {
   --twitter-background: #f5f8fa;
 }
 
+.main-feed-col {
+  width: 600px;
+}
+
+.left-bar-col {
+  width: 275px;
+}
+
+.right-bar-col {
+  width: 350px;
+}
+
 @media (max-width: 576px) {
   .left-bar-col {
     display: none;
