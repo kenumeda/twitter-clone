@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-
 import { Avatar, Button, Card, Input, Tabs, message } from "antd";
-import NewsFeed from "./newsfeed";
-import YourTweets from "./yourtweets";
+import NewsFeed from "./NewsFeed";
+import YourTweets from "./YourTweets";
 
-const Mainfeed = () => {
+const MainFeed = () => {
   const [tweets, setTweets] = useState([]);
   const [inputValue, setInputValue] = useState("");
 
@@ -45,7 +44,10 @@ const Mainfeed = () => {
           <Avatar
             size="large"
             icon={
-              <img src="https://pbs.twimg.com/profile_images/378800000470304954/8eadbe17cfe4a3ec5771089778a09113_400x400.jpeg" />
+              <img
+                src="https://pbs.twimg.com/profile_images/378800000470304954/8eadbe17cfe4a3ec5771089778a09113_400x400.jpeg"
+                alt="avatar"
+              />
             }
           />
           <form onSubmit={handleSubmit} className="form">
@@ -78,4 +80,4 @@ const Mainfeed = () => {
   );
 };
 
-export default Mainfeed;
+export default MainFeed;
