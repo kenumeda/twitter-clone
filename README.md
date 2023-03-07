@@ -11,11 +11,11 @@ The common funtionalities are:-
 - All tweets are loaded on top firsrt
 - Only the middle section is scrollable
 
-<h2>Click here for live demo </h2>
+<h2>Click here for live demo  </h2>
 
 <h3>About the project </h3>
 
-### Click here for live demo Available Scripts
+### Click here for live demo https://twitter-clone-project12.netlify.app/
 
 #### Built With
 
@@ -30,4 +30,4 @@ To run project
 
 To build project
 
-### `npm run buil`
+### `npm run build`
