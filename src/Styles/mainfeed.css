@@ -32,22 +32,3 @@
 ::-webkit-scrollbar {
   display: none;
 }
-
-.tweet-content {
-  padding-left: 70px;
-}
-
-.tweet {
-  padding: 8px 0px;
-  width: auto;
-  border: none;
-  border-bottom: 1px solid #e6ecf0;
-}
-
-.metadata {
-  border: none;
-}
-
-.rt-likes {
-  border: none;
-}
