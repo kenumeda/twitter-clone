@@ -2,7 +2,7 @@ import FakeTweet from "fake-tweet";
 
 const YourTweets = ({ tweets }) => {
   return (
-    <div className="tweet">
+    <div className="yourtweets">
       {tweets.map((tweet, index) => (
         <div key={index}>
           <FakeTweet config={tweet} />
