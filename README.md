@@ -4,7 +4,7 @@
 ![alt text](./public/Twitterscreenshot.png)
 
 </div>
-### Click here for live demo https://twitter-clone-project12.netlify.app/
+<h3> Click here for live demo https://twitter-clone-project12.netlify.app/ </h3>
 
 <h3>About the project </h3>
 
