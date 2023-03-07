@@ -1,4 +1,5 @@
 import React from "react";
+import savewalterwhite from "../Assets/walterwhite.jpg";
 import { Button, Typography } from "antd";
 import { Avatar, List } from "antd";
 
@@ -6,7 +7,7 @@ const { Title } = Typography;
 
 const data = [
   {
-    avatar: "http://www.savewalterwhite.com/img/walter_1.jpg",
+    avatar: <img src={savewalterwhite} alt="Save Walter White" />,
     title: "HelpMyDad",
     description: "@savewalterwhite",
     link: "http://www.savewalterwhite.com/",
