@@ -15,12 +15,12 @@ body {
   width: 350px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1000px) {
   .left-bar-col {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .right-bar-col {
     display: none;
   }
