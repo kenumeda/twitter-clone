@@ -2,26 +2,27 @@ import React from "react";
 
 import "./App.css";
 import { Col, Row } from "antd";
-import LeftBar from "./Pages/leftbar";
-import MainFeed from "./Pages/mainfeed";
-import RightBar from "./Pages/rightbar";
-
+import LeftBar from "./pages/LeftBar";
+import Mainfeed from "./pages/MainFeed";
+import LargeWidget from "./pages/LargeWidget";
 const App = () => {
   return (
     <>
-      <Row justify="center" gutter={[8, 8]}>
-        <Col sm={10} md={7} lg={5} className="left-bar-col">
+      <Row
+        justify="center
+    "
+        gutter={[8, 8]}
+      >
+        <Col className="left-bar-col">
           <LeftBar />
         </Col>
 
-        <Col sm={14} md={10} lg={10} className="main-feed-col">
-          <div className="main-feed-container">
-            <MainFeed />
-          </div>
+        <Col className="main-feed-col">
+          <Mainfeed />
         </Col>
 
-        <Col sm={10} md={7} lg={5} className="right-bar-col">
-          <RightBar />
+        <Col className="right-bar-col">
+          <LargeWidget />
         </Col>
       </Row>
     </>
