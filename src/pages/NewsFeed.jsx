@@ -4,7 +4,7 @@ import FakeTweet from "fake-tweet";
 
 const NewsFeed = () => {
   return (
-    <div className="tweet">
+    <div className="tweets">
       {tweets.map((tweet, index) => (
         <div key={index}>
           <FakeTweet config={tweet} />
