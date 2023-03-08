@@ -1,18 +1,18 @@
 .tweet-content {
-  padding-left: 60px;
+  padding-left: 60px !important ;
 }
 
 .tweet {
-  padding: 8px 0px;
-  width: auto;
-  border: none;
-  border-bottom: 1px solid #e6ecf0;
+  padding: 8px 0px !important;
+  width: auto !important;
+  border: none !important;
+  border-bottom: 1px solid #e6ecf0 !important;
 }
 
 .metadata {
-  border: none;
+  border: none !important ;
 }
 
 .rt-likes {
-  border: none;
+  border: none !important;
 }
